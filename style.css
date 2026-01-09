@@ -34,12 +34,21 @@ header h1 {
 .beneficios {
   text-align: left;
   margin: 20px 0;
-  padding-left: 0;
+  padding: 0;
   list-style: none;
 }
 
 .beneficios li {
   margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+}
+.beneficios li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #6a5acd; /* roxo */
+  font-weight: bold;
 }
 
 .descricao {
