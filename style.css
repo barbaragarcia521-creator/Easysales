@@ -1,2 +1,50 @@
-<link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  padding: 30px 20px;
+}
+
+.produto {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.produto img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.beneficios {
+  text-align: left;
+  margin: 20px 0;
+}
+
+button {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #218838;
+}
+
+footer {
+  background: #ddd;
+  padding: 15px;
+}
