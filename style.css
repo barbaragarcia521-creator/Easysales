@@ -1,32 +1,56 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f5f5f5;
+  background: #f4f7f6;
   margin: 0;
   text-align: center;
+  color: #333;
 }
 
 header {
-  background: #222;
+  background: #1e7f6d;
   color: #fff;
-  padding: 30px 20px;
+  padding: 35px 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
 }
 
 .produto {
-  max-width: 400px;
+  max-width: 420px;
   margin: 40px auto;
   background: #fff;
-  padding: 20px;
-  border-radius: 8px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
 .produto img {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 .beneficios {
   text-align: left;
   margin: 20px 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.beneficios li {
+  margin-bottom: 10px;
+}
+
+.descricao {
+  margin: 20px 0;
+  font-size: 15px;
+}
+
+.aviso {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 25px;
 }
 
 button {
@@ -37,7 +61,7 @@ button {
   width: 100%;
   font-size: 16px;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 button:hover {
@@ -45,6 +69,7 @@ button:hover {
 }
 
 footer {
-  background: #ddd;
+  background: #e0e0e0;
   padding: 15px;
+  font-size: 14px;
 }
